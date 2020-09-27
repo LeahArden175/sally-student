@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgb(175, 206, 154);
+  }
+
+
+body{
+    margin: auto;
+    margin-top: -30px;
+}
+
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Rancho', cursive;
+}
+
+p{
+    font-family: 'Rancho', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+ul{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    list-style: none;
+}
+
+li{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.img{
+    width: 100%;
+    border-color: rgb(61, 53, 40);
+}
+
+.intro{
+    font-family: 'Rancho', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact-section{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    margin: 20px;
+}
+
+.contact{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*-----GROUPS AND ITEMS-----*/
+.group {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-content: center;
+  }
+
+  .item {
+    flex: 1;
+    margin: 25px;
+  }
+  
+  .item-double {
+    flex: 2;
+    margin: 10px;
+  }
+
+/*-----GROUPS AND ITEMS (DESKTOP)-----*/
+
+  @media all and (min-width: 800px){
+
+    
+
+    h1{
+        margin-top: 100px;
+        font-size: 70px;
+        text-align: center;
+        font-family: 'Rancho', cursive;
+    }
+
+    .img{
+        display: flex;
+        width: 100%;
+        border-color: rgb(61, 53, 40);
+    }
+
+    p{
+        font-family: 'Rancho', cursive;
+        font-size: 40px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .intro{
+        font-family: 'Rancho', cursive;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 100px;
+    }
+
+    .intro-sec{
+        display: flex;
+        flex-direction: row;;
+    }
+
+    ul{
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        list-style: none;
+        margin-right: 40px;
+    }
+    
+    li{
+        text-align: center;
+    }
+
+    
+    .contact-section{
+        font-family: 'Raleway', sans-serif;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        border: solid;
+    }
+
+    .contact{
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+        width: 100%;   
+    }
+
+
+  }
